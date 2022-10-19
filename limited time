@@ -11,3 +11,5 @@ Sum=0
 Max=0
 for i in range(T):
     Sum+=E[i]-L[i]
+Max=max(Sum,Max)
+print("output",Max)
